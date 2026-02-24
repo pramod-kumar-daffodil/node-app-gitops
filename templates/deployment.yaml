@@ -14,6 +14,8 @@ spec:
       labels:
         app: node-app
     spec:
+      imagePullSecrets:
+        - name: dockerhubcreds
       containers:
       - name: node-app
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
