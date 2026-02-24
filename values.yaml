@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: nginxpramod5490/node-app
   pullPolicy: Always
-  tag: "v1"
+  tag: "v1.0.0"
 service:
   type: NodePort
   port: 80
