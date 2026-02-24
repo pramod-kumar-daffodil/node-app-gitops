@@ -1,5 +1,5 @@
 
-replicaCount: 10
+replicaCount: 2
 image:
   repository: pramod5490/node-app
   pullPolicy: Always
